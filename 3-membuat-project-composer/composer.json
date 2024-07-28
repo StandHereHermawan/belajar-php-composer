@@ -1,0 +1,6 @@
+{
+    "name": "arief-karditya/test-php-composer",
+    "description": "Belajar PHP Composer",
+    "type": "project",
+    "require": {}
+}
