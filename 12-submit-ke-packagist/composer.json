@@ -1,0 +1,21 @@
+{
+    "name": "arief-karditya/submit",
+    "description": "Ambil dari repo yang udah Submit ke Packagist",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AriefKarditya\\Submit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arief-Karditya",
+            "email": "nolifegansaya@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "arief-karditya/library": "2.0.0",
+        "monolog/monolog": "2.2.0"
+    }
+}
