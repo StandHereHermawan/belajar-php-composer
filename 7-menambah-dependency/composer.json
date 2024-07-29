@@ -1,0 +1,19 @@
+{
+    "name": "arief-karditya/autoload",
+    "description": "Autoload",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Arief-Karditya",
+            "email": "nolifegansaya@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "AriefWorks\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "2.2.0"
+    }
+}
