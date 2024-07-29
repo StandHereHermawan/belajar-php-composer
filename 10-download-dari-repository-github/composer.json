@@ -1,0 +1,27 @@
+{
+    "name": "arief-karditya/10-download-dari-repository-github",
+    "description": "Download dari Repository Github",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AriefKarditya\\10DownloadDariRepositoryGithub\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arief-Karditya",
+            "email": "nolifegansaya@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StandHereHermawan/belajar-php-composer-chapter-9"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "arief-karditya/library": "1.0.0",
+        "monolog/monolog": "2.2.0"
+    }
+}
