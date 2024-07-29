@@ -1,0 +1,21 @@
+{
+    "name": "arief-karditya/test-script",
+    "description": "Test Script",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "AriefKarditya\\TestScript\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Arief-Karditya",
+            "email": "nolifegansaya@gmail.com"
+        }
+    ],
+    "require": {},
+    "scripts": {
+        "jalankan-server-php-development": "php -S localhost:8080",
+        "hello-zsh": "echo 'Hello World from Composer by Arief'"
+    }
+}
