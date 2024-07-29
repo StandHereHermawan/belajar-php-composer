@@ -1,0 +1,21 @@
+{
+    "name": "arief-karditya/update",
+    "description": "Update Versi Library",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Arief-Karditya",
+            "email": "nolifegansaya@gmail.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/StandHereHermawan/belajar-php-composer-chapter-9"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "arief-karditya/library": "2.0.0"
+    }
+}
